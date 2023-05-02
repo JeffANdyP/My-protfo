@@ -19,9 +19,9 @@ header{
     background: transparent;
 }
 
-/* body{
-background-color: rgb(193, 60, 16);
-} */
+body{
+    background:  linear-gradient(245.59deg, #4d9559 0%, #38793d 28.53%, #133917 75.53%);
+}
 .logo{
     font-size: 30px;
     font-weight: 700;
@@ -56,7 +56,7 @@ background-color: rgb(193, 60, 16);
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background:  linear-gradient(245.59deg, #4d9559 0%, #38793d 28.53%, #133917 75.53%);
+    /* background:  linear-gradient(245.59deg, #4d9559 0%, #38793d 28.53%, #133917 75.53%); */
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -98,7 +98,7 @@ section{
 }
 
 .hero-img {
-    width: 500px;
+    width: 100px;
     height: auto;
 }
 
@@ -271,7 +271,7 @@ transition: all .50s ease;
 }
 
 @media (max-width: 680px){
-    .hero-img{
+    .hero-img img{
         width: 100%;
         height: auto;
     }
